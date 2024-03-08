@@ -9,7 +9,7 @@
         tailwind.config = {
           theme: {
             screens: {
-      'sm': '340px',
+      'sm': '640px',
       // => @media (min-width: 640px) { ... }
 
       'md': '768px',
@@ -29,6 +29,18 @@
         'md': {'min':'320px','max':'567px'},
         // => @media (min-width: 992px) { ... }
       },
+      colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'white': '#ffffff',
+      'purple': '#3f3cbb',
+      'midnight': '#121063',
+      'metal': '#565584',
+      'tahiti': '#3ab7bf',
+      'silver': '#ecebff',
+      'bubble-gum': '#ff77e9',
+      'bermuda': '#78dcca',
+    },
               colors: {
                 clifford: '#da373d',
                 color_1:'yellow'
@@ -39,14 +51,26 @@
       </script>
 </head>
 <body>
-    <div class="container bg-red-900 mx-auto">
-    <h1 class="text-clifford sm:text-center font-bold underline lg:text-right py-10">Hello Sana Ullah</h1>
+    <!-- <div>
+    <h1 class="text-red-500">Hello Sana Ullah</h1>
 
-    </div>
+    </div> -->
     <!-- <div class="mt-6 ...">mt-6</div>
 <div class="mr-4 ...">mr-4</div>
 <div class="mb-8 ...">mb-8</div>
 <div class="ml-2 ...">ml-2</div> -->
+
+<div class="max-w-[1200px] py-5 text-white mx-auto grid lg:grid-cols-4 gap-2 md:grid-cols-2 grid sm:grid-cols-2">
+  <div class="bg-[green] py-5 text-center">Master industry-relevant skills with our vernacular online courses. Choose your program, get certified, and open doors to lucrative career opportunities.</div>
+  <div class="bg-[green] py-5 text-center">Master industry-relevant skills with our vernacular online courses. Choose your program, get certified, and open doors to lucrative career opportunities.</div>
+  <div class="bg-[green] py-5 text-center">Master industry-relevant skills with our vernacular online courses. Choose your program, get certified, and open doors to lucrative career opportunities.</div>
+  <div class="bg-[green] py-5 text-center">Master industry-relevant skills with our vernacular online courses. Choose your program, get certified, and open doors to lucrative career opportunities.</div>
+  <div class="bg-[green] py-5 text-center">Master industry-relevant skills with our vernacular online courses. Choose your program, get certified, and open doors to lucrative career opportunities.</div>
+  <div class="bg-[green] py-5 text-center">Master industry-relevant skills with our vernacular online courses. Choose your program, get certified, and open doors to lucrative career opportunities.</div>
+  <div class="bg-[green] py-5 text-center">Master industry-relevant skills with our vernacular online courses. Choose your program, get certified, and open doors to lucrative career opportunities.</div>
+  <div class="bg-[green] py-5 text-center">Master industry-relevant skills with our vernacular online courses. Choose your program, get certified, and open doors to lucrative career opportunities.</div>
+
+</div>
     
 </body>
 </html>
