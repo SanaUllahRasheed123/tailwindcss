@@ -1,56 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = {
-          theme: {
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "640px",
+            // => @media (min-width: 640px) { ... }
+
+            md: "768px",
+            // => @media (min-width: 768px) { ... }
+
+            lg: "1024px",
+            // => @media (min-width: 1024px) { ... }
+
+            xl: "1280px",
+            // => @media (min-width: 1280px) { ... }
+
+            "2xl": "1536px",
+            // => @media (min-width: 1536px) { ... }
+          },
+          extend: {
             screens: {
-      'sm': '640px',
-      // => @media (min-width: 640px) { ... }
-
-      'md': '768px',
-      // => @media (min-width: 768px) { ... }
-
-      'lg': '1024px',
-      // => @media (min-width: 1024px) { ... }
-
-      'xl': '1280px',
-      // => @media (min-width: 1280px) { ... }
-
-      '2xl': '1536px',
-      // => @media (min-width: 1536px) { ... }
-    },
-            extend: {
-                screens: {
-        'md': {'min':'320px','max':'567px'},
-        // => @media (min-width: 992px) { ... }
-      },
-      colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      'white': '#ffffff',
-      'purple': '#3f3cbb',
-      'midnight': '#121063',
-      'metal': '#565584',
-      'tahiti': '#3ab7bf',
-      'silver': '#ecebff',
-      'bubble-gum': '#ff77e9',
-      'bermuda': '#78dcca',
-    },
-              colors: {
-                clifford: '#da373d',
-                color_1:'yellow'
-              }
-            }
-          }
-        }
-      </script>
-</head>
-<body>
+              md: { min: "320px", max: "567px" },
+              // => @media (min-width: 992px) { ... }
+            },
+            colors: {
+              transparent: "transparent",
+              current: "currentColor",
+              white: "#ffffff",
+              purple: "#3f3cbb",
+              midnight: "#121063",
+              metal: "#565584",
+              tahiti: "#3ab7bf",
+              silver: "#ecebff",
+              "bubble-gum": "#ff77e9",
+              bermuda: "#78dcca",
+            },
+            colors: {
+              clifford: "#da373d",
+              color_1: "yellow",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
     <!-- <div>
     <h1 class="text-red-500">Hello Sana Ullah</h1>
 
@@ -60,7 +60,7 @@
 <div class="mb-8 ...">mb-8</div>
 <div class="ml-2 ...">ml-2</div> -->
 
-<div class="max-w-[1200px] py-5 text-white mx-auto grid lg:grid-cols-4 gap-2 md:grid-cols-2 grid sm:grid-cols-2">
+    <!-- <div class="max-w-[1200px] py-5 text-white mx-auto grid lg:grid-cols-4 gap-2 md:grid-cols-2 grid sm:grid-cols-2">
   <div class="bg-[green] py-5 text-center">Master industry-relevant skills with our vernacular online courses. Choose your program, get certified, and open doors to lucrative career opportunities.</div>
   <div class="bg-[green] py-5 text-center">Master industry-relevant skills with our vernacular online courses. Choose your program, get certified, and open doors to lucrative career opportunities.</div>
   <div class="bg-[green] py-5 text-center">Master industry-relevant skills with our vernacular online courses. Choose your program, get certified, and open doors to lucrative career opportunities.</div>
@@ -70,7 +70,52 @@
   <div class="bg-[green] py-5 text-center">Master industry-relevant skills with our vernacular online courses. Choose your program, get certified, and open doors to lucrative career opportunities.</div>
   <div class="bg-[green] py-5 text-center">Master industry-relevant skills with our vernacular online courses. Choose your program, get certified, and open doors to lucrative career opportunities.</div>
 
-</div>
-    
-</body>
+</div> -->
+     <!-- fdlk -->
+
+    <div
+      class="w-[1200px] mx-auto grid lg:grid-cols-4 gap-2 md:grid-cols-2 grid sm:grid-cols-2 py-10"
+    >
+      <div class="bg-[green] py-5 text-center text-white col-start-2 col-end-4">
+        What is data logger used for? Data loggers are electronic devices which
+        automatically monitor and record environmental parameters over time,
+        allowing conditions to be measured, documented, analysed and validated.
+      </div>
+      <div class="bg-[green] py-5 text-center text-white">
+        What is data logger used for? Data loggers are electronic devices which
+        automatically monitor and record environmental parameters over time,
+        allowing conditions to be measured, documented, analysed and validated.
+      </div>
+      <div class="bg-[green] py-5 text-center text-white">
+        What is data logger used for? Data loggers are electronic devices which
+        automatically monitor and record environmental parameters over time,
+        allowing conditions to be measured, documented, analysed and validated.
+      </div>
+      <div class="bg-[green] py-5 text-center text-white">
+        What is data logger used for? Data loggers are electronic devices which
+        automatically monitor and record environmental parameters over time,
+        allowing conditions to be measured, documented, analysed and validated.
+      </div>
+      <div class="bg-[green] py-5 text-center text-white">
+        What is data logger used for? Data loggers are electronic devices which
+        automatically monitor and record environmental parameters over time,
+        allowing conditions to be measured, documented, analysed and validated.
+      </div>
+      <div class="bg-[green] py-5 text-center text-white">
+        What is data logger used for? Data loggers are electronic devices which
+        automatically monitor and record environmental parameters over time,
+        allowing conditions to be measured, documented, analysed and validated.
+      </div>
+      <div class="bg-[green] py-5 text-center text-white">
+        What is data logger used for? Data loggers are electronic devices which
+        automatically monitor and record environmental parameters over time,
+        allowing conditions to be measured, documented, analysed and validated.
+      </div>
+      <div class="bg-[green] py-5 text-center text-white">
+        What is data logger used for? Data loggers are electronic devices which
+        automatically monitor and record environmental parameters over time,
+        allowing conditions to be measured, documented, analysed and validated.
+      </div>
+    </div>
+  </body>
 </html>
